@@ -15,6 +15,10 @@
 		B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B221498C262B66430001FB78 /* LaunchScreen.storyboard */; };
 		B2214999262B66430001FB78 /* ARChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214998262B66430001FB78 /* ARChessTests.swift */; };
 		B22149A4262B66430001FB78 /* ARChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22149A3262B66430001FB78 /* ARChessUITests.swift */; };
+		B22149B8262B8A970001FB78 /* Board.scn in Resources */ = {isa = PBXBuildFile; fileRef = B22149B7262B8A970001FB78 /* Board.scn */; };
+		B24C2D17262B90C7004D2DE6 /* chessboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B24C2D16262B90C6004D2DE6 /* chessboard.png */; };
+		B24C2D1C262BA558004D2DE6 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B24C2D1B262BA558004D2DE6 /* checkerboard.png */; };
+		B24C2D21262BA641004D2DE6 /* blackchecker.png in Resources */ = {isa = PBXBuildFile; fileRef = B24C2D20262BA641004D2DE6 /* blackchecker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B221499F262B66430001FB78 /* ARChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22149A3262B66430001FB78 /* ARChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARChessUITests.swift; sourceTree = "<group>"; };
 		B22149A5262B66430001FB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22149B7262B8A970001FB78 /* Board.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Board.scn; path = ../../../Downloads/Board.scn; sourceTree = "<group>"; };
+		B24C2D16262B90C6004D2DE6 /* chessboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chessboard.png; path = ../../../Downloads/chessboard.png; sourceTree = "<group>"; };
+		B24C2D1B262BA558004D2DE6 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkerboard.png; path = ../../../Downloads/checkerboard.png; sourceTree = "<group>"; };
+		B24C2D20262BA641004D2DE6 /* blackchecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackchecker.png; path = ../../../Downloads/blackchecker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +110,11 @@
 				B2214981262B66410001FB78 /* AppDelegate.swift */,
 				B2214983262B66410001FB78 /* SceneDelegate.swift */,
 				B2214985262B66410001FB78 /* ViewController.swift */,
+				B24C2D20262BA641004D2DE6 /* blackchecker.png */,
+				B22149B7262B8A970001FB78 /* Board.scn */,
+				B24C2D1B262BA558004D2DE6 /* checkerboard.png */,
 				B2214987262B66410001FB78 /* Main.storyboard */,
+				B24C2D16262B90C6004D2DE6 /* chessboard.png */,
 				B221498A262B66430001FB78 /* Assets.xcassets */,
 				B221498C262B66430001FB78 /* LaunchScreen.storyboard */,
 				B221498F262B66430001FB78 /* Info.plist */,
@@ -233,7 +245,11 @@
 			files = (
 				B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */,
 				B221498B262B66430001FB78 /* Assets.xcassets in Resources */,
+				B24C2D1C262BA558004D2DE6 /* checkerboard.png in Resources */,
 				B2214989262B66410001FB78 /* Main.storyboard in Resources */,
+				B24C2D17262B90C7004D2DE6 /* chessboard.png in Resources */,
+				B22149B8262B8A970001FB78 /* Board.scn in Resources */,
+				B24C2D21262BA641004D2DE6 /* blackchecker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
