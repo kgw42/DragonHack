@@ -1,6 +1,7 @@
-# DragonHack - AR Chess
+# DragonHack - AR Checkers
 
 This is an augmented reality application that revamps the way the game of checkers is played.
+Project Info: https://devpost.com/software/ar-checkers
 
 Time spent: **24** hours spent in total
 
