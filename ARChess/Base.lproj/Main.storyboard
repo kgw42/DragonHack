@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="bjr-R0-1PI">
             <objects>
-                <viewController title="Login View Controller" id="Hi1-cC-NAt" sceneMemberID="viewController">
+                <viewController title="Login View Controller" id="Hi1-cC-NAt" customClass="LoginViewController" customModule="ARChess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TIR-sY-pQH">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--MenuViewController-->
         <scene sceneID="Sqe-tg-ZgL">
             <objects>
-                <viewController title="MenuViewController" id="beg-Gc-b0s" sceneMemberID="viewController">
+                <viewController title="MenuViewController" id="beg-Gc-b0s" customClass="MenuViewController" customModule="ARChess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vRd-GQ-ss3">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
         <!--ARViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="ARViewController" id="BYZ-38-t0r" customClass="ARViewController" sceneMemberID="viewController">
+                <viewController title="ARViewController" id="BYZ-38-t0r" customClass="ARViewController" customModule="ARChess" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="sceneView" destination="kNq-sP-9BB" id="jp3-xg-HhZ"/>
+                        <outlet property="sceneView" destination="kNq-sP-9BB" id="hQe-MM-1N1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
