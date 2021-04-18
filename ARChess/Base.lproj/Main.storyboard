@@ -44,6 +44,7 @@
                                 <rect key="frame" x="34" y="331" width="341" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88981753590000001" green="0.90692949300000003" blue="0.81568098069999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                             </textField>
@@ -59,6 +60,7 @@
                                 <rect key="frame" x="34" y="413" width="341" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88981753590000001" green="0.90692949300000003" blue="0.81568098069999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
                             </textField>
@@ -93,6 +95,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MoM-nS-kBO"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="adw-tq-BQ5" appends="YES" id="cJf-Uh-Udh"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="password" destination="lr6-0n-Sa9" id="gXI-LX-KWr"/>
@@ -100,13 +106,14 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL3-Wu-NV0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="adw-tq-BQ5"/>
             </objects>
             <point key="canvasLocation" x="595.79439252336442" y="-143.1965442764579"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="ARViewController" id="BYZ-38-t0r" customClass="ARViewController" sceneMemberID="viewController">
+                <viewController title="ARViewController" id="BYZ-38-t0r" customClass="ARViewController" customModule="ARChess" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
