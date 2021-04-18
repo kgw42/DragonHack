@@ -23,11 +23,12 @@ class ARViewController: UIViewController {
     var mainPlane:SCNNode = SCNNode();
     var turn:String = "red";
     var selected:Bool = false;
-    //var move:Bool = false;
+    var displaynode: SCNNode = SCNNode();
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //addBoardtoScene()
+        addPlayerScreen()
         addTapGesture()
         configureLighting()
     }
@@ -45,6 +46,25 @@ class ARViewController: UIViewController {
         
         sceneView.delegate = self
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+    }
+    
+    func addPlayerScreen() {
+        let text = SCNText(string: "Player: " + turn, extrusionDepth: 2)
+        let material = SCNMaterial()
+        material.diffuse.contents = UIColor.white
+        text.materials = [material]
+        
+        let node = SCNNode()
+        node.position = SCNVector3(x:mainPlane.position.x - 0.25, y:0.0001, z:-0.2)
+        node.scale = SCNVector3(x:0.01, y:0.01, z:0.01)
+        node.geometry = text
+        displaynode = node
+        
+        sceneView.scene.rootNode.addChildNode(node)
+    }
+    
+    func updatePlayerScreen() {
+        displaynode.geometry = SCNText(string: "Player: " + turn, extrusionDepth: 2)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -69,6 +89,7 @@ class ARViewController: UIViewController {
         else{
             turn = "red"
         }
+        updatePlayerScreen()
     }
     
     func makeBlackPieces() -> SCNNode {
