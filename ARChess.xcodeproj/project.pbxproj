@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CAA1D57262BB4BD00D14BFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA1D56262BB4BD00D14BFF /* LoginViewController.swift */; };
+		4CAA1D5F262BB61700D14BFF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA1D5E262BB61700D14BFF /* MenuViewController.swift */; };
 		B2214982262B66410001FB78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214981262B66410001FB78 /* AppDelegate.swift */; };
 		B2214984262B66410001FB78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214983262B66410001FB78 /* SceneDelegate.swift */; };
-		B2214986262B66410001FB78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214985262B66410001FB78 /* ViewController.swift */; };
+		B2214986262B66410001FB78 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214985262B66410001FB78 /* ARViewController.swift */; };
 		B2214989262B66410001FB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2214987262B66410001FB78 /* Main.storyboard */; };
 		B221498B262B66430001FB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B221498A262B66430001FB78 /* Assets.xcassets */; };
 		B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B221498C262B66430001FB78 /* LaunchScreen.storyboard */; };
 		B2214999262B66430001FB78 /* ARChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214998262B66430001FB78 /* ARChessTests.swift */; };
 		B22149A4262B66430001FB78 /* ARChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22149A3262B66430001FB78 /* ARChessUITests.swift */; };
-		B22149B8262B8A970001FB78 /* Board.scn in Resources */ = {isa = PBXBuildFile; fileRef = B22149B7262B8A970001FB78 /* Board.scn */; };
-		B24C2D1C262BA558004D2DE6 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B24C2D1B262BA558004D2DE6 /* checkerboard.png */; };
-		B24C2D21262BA641004D2DE6 /* blackchecker.png in Resources */ = {isa = PBXBuildFile; fileRef = B24C2D20262BA641004D2DE6 /* blackchecker.png */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CAA1D56262BB4BD00D14BFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4CAA1D5E262BB61700D14BFF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B221497E262B66410001FB78 /* ARChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2214981262B66410001FB78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2214983262B66410001FB78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2214985262B66410001FB78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2214985262B66410001FB78 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		B2214988262B66410001FB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B221498A262B66430001FB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B221498D262B66430001FB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,9 +54,7 @@
 		B221499F262B66430001FB78 /* ARChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22149A3262B66430001FB78 /* ARChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARChessUITests.swift; sourceTree = "<group>"; };
 		B22149A5262B66430001FB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B22149B7262B8A970001FB78 /* Board.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Board.scn; path = ../../../Downloads/Board.scn; sourceTree = "<group>"; };
-		B24C2D1B262BA558004D2DE6 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkerboard.png; path = ../../../Downloads/checkerboard.png; sourceTree = "<group>"; };
-		B24C2D20262BA641004D2DE6 /* blackchecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackchecker.png; path = ../../../Downloads/blackchecker.png; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,9 @@
 			children = (
 				B2214981262B66410001FB78 /* AppDelegate.swift */,
 				B2214983262B66410001FB78 /* SceneDelegate.swift */,
-				B2214985262B66410001FB78 /* ViewController.swift */,
-				B24C2D20262BA641004D2DE6 /* blackchecker.png */,
-				B22149B7262B8A970001FB78 /* Board.scn */,
-				B24C2D1B262BA558004D2DE6 /* checkerboard.png */,
+				B2214985262B66410001FB78 /* ARViewController.swift */,
+				4CAA1D56262BB4BD00D14BFF /* LoginViewController.swift */,
+				4CAA1D5E262BB61700D14BFF /* MenuViewController.swift */,
 				B2214987262B66410001FB78 /* Main.storyboard */,
 				B221498A262B66430001FB78 /* Assets.xcassets */,
 				B221498C262B66430001FB78 /* LaunchScreen.storyboard */,
@@ -242,10 +241,8 @@
 			files = (
 				B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */,
 				B221498B262B66430001FB78 /* Assets.xcassets in Resources */,
-				B24C2D1C262BA558004D2DE6 /* checkerboard.png in Resources */,
 				B2214989262B66410001FB78 /* Main.storyboard in Resources */,
-				B22149B8262B8A970001FB78 /* Board.scn in Resources */,
-				B24C2D21262BA641004D2DE6 /* blackchecker.png in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2214986262B66410001FB78 /* ViewController.swift in Sources */,
+				4CAA1D57262BB4BD00D14BFF /* LoginViewController.swift in Sources */,
+				4CAA1D5F262BB61700D14BFF /* MenuViewController.swift in Sources */,
+				B2214986262B66410001FB78 /* ARViewController.swift in Sources */,
 				B2214982262B66410001FB78 /* AppDelegate.swift in Sources */,
 				B2214984262B66410001FB78 /* SceneDelegate.swift in Sources */,
 			);
@@ -449,13 +448,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9928A6P8W;
+				DEVELOPMENT_TEAM = 2Z8TSV2JCA;
 				INFOPLIST_FILE = ARChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kathrina-Waugh.ARChess";
+				PRODUCT_BUNDLE_IDENTIFIER = kwekARChess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,13 +467,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9928A6P8W;
+				DEVELOPMENT_TEAM = 2Z8TSV2JCA;
 				INFOPLIST_FILE = ARChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kathrina-Waugh.ARChess";
+				PRODUCT_BUNDLE_IDENTIFIER = kwekARChess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
