@@ -8,12 +8,40 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    @IBOutlet weak var username: UITextField!
+    
+    @IBOutlet weak var password: UITextField!
+    
+    @IBAction func signIn(_ sender: Any) {
+        let usernameText = username.text!
         
+        let passwordText = password.text!
+        
+        if usernameText != "" && passwordText != "" {
+            performSegue(withIdentifier: "LoginSegue", sender: nil)
+        }
+        else {
+                let alertController = UIAlertController(title: "AR Chess", message:
+                    "Username or password field empty", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+                self.present(alertController, animated: true, completion: nil)
+        }
+        
+    }
+  
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        username.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
+
+          // Automatically sign in the user.
+        
+
     }
     
 
@@ -26,5 +54,4 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
