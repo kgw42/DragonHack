@@ -17,6 +17,7 @@
 		B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B221498C262B66430001FB78 /* LaunchScreen.storyboard */; };
 		B2214999262B66430001FB78 /* ARChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2214998262B66430001FB78 /* ARChessTests.swift */; };
 		B22149A4262B66430001FB78 /* ARChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22149A3262B66430001FB78 /* ARChessUITests.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B221499F262B66430001FB78 /* ARChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22149A3262B66430001FB78 /* ARChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARChessUITests.swift; sourceTree = "<group>"; };
 		B22149A5262B66430001FB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				B221498E262B66430001FB78 /* LaunchScreen.storyboard in Resources */,
 				B221498B262B66430001FB78 /* Assets.xcassets in Resources */,
 				B2214989262B66410001FB78 /* Main.storyboard in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
