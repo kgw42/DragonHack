@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 - [x] Pieces rise above the board when selected.
 - [x] User can use gesture recognition to move select and move pieces
 - [x] Application displays what turns for both players.
-- [ ] 
+
 
 The following features are potential **future improvements**:
 
