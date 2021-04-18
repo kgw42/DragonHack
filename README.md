@@ -1,4 +1,4 @@
-# DragonHack
+# DragonHack - AR Chess
 
 This is an augmented reality application that revamps the way the game of checkers is played.
 
