@@ -31,4 +31,4 @@ The following features are potential **future improvements**:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/avFxvoY9UR.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/Qbsx4UQw0u.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
